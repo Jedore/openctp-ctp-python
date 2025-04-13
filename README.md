@@ -194,6 +194,9 @@ from openctp_ctp import tdapi, mdapi
   # CentOS (7)
   sudo yum install -y kde-l10n-Chinese
   sudo yum reinstall -y glibc-common
+
+  # CentOS (8/9)
+  sudo yum install -y langpacks-zh_CN.noarch
   ```
 
 - Mac下报错
