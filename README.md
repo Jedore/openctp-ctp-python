@@ -1,5 +1,4 @@
 <h1 align="center">openctp-ctp </h1>
-<img src="openctp.jpg" align="right" height="130"/>
 
 <div>
     <a href="#"><img src="https://flat.badgen.net/badge/os/windows-x86/cyan?icon=windows" /></a>
