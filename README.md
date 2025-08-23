@@ -141,11 +141,10 @@ from openctp_ctp import tdapi, mdapi
 
 ## 说明
 
--
-
-openctp-ctp库默认只支持CTP柜台，如需连接TTS、XTP、TORA等柜台，可以使用openctp的CTPAPI兼容接口方式，将CTP的dll（如thosttraderapi_se.dll）替换为相应柜台的版本即可，具体见[openctp](http://github.com/openctp/openctp)
+-  openctp-ctp库默认只支持CTP柜台，如需连接TTS、XTP、TORA等柜台，可以使用openctp的CTPAPI兼容接口方式，将CTP的dll（如thosttraderapi_se.dll）替换为相应柜台的版本即可，具体见[openctp](http://github.com/openctp/openctp)
 
 - CTPAPI的Python版开发技术： [swig转换CTPAPI为Python攻略](https://www.jedore.top/blog/post/ctpapi-swig-python/)。
+
 - [更新日志](CHANGELOG.md)
 
 **用于实盘前请充分测试相应的功能，openctp不对此承担任何责任。**
