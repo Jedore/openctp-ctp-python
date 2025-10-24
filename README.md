@@ -32,22 +32,22 @@ openctp-ctp库是由 [**openctp**](https://github.com/openctp) 使用Swig技术�
 
 ### 生产版
 
-| openctp-ctp | win x86            | win x64            | linux x64          | mac x64            | mac arm64          |
-|-------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| 6.3.15.*    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
-| 6.3.19.*    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
-| 6.5.1.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
-| 6.6.1.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
-| 6.6.7.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 6.6.9.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 6.7.0.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 6.7.1.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
-| 6.7.2.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 6.7.7.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 6.7.8.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
-| 6.7.9.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
-| 6.7.10.*    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
-| 6.7.11.*    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    |
+| openctp-ctp | win x86            | win x64            | linux x64          | mac x64            | mac arm64          | 对应CTPAPI  |
+|-------------|--------------------|--------------------|--------------------|--------------------|--------------------|-----------|
+| 6.3.15.*    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    | 6.3.15_P1 |
+| 6.3.19.*    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    | 6.3.19    |
+| 6.5.1.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    | 6.5.1     |
+| 6.6.1.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    | 6.6.1_P1  |
+| 6.6.7.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 6.6.7     |
+| 6.6.9.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 6.6.9     |
+| 6.7.0.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 6.7.0     | 
+| 6.7.1.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    | 6.7.1     |
+| 6.7.2.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 6.7.2     |
+| 6.7.7.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 6.7.7     | 
+| 6.7.8.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    | 6.7.8     | 
+| 6.7.9.*     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    | 6.7.9     |
+| 6.7.10.*    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    | 6.7.10    |
+| 6.7.11.*    | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |                    | 6.7.11    |
 
 ## 快速使用
 
@@ -141,7 +141,7 @@ from openctp_ctp import tdapi, mdapi
 
 ## 说明
 
--  openctp-ctp库默认只支持CTP柜台，如需连接TTS、XTP、TORA等柜台，可以使用openctp的CTPAPI兼容接口方式，将CTP的dll（如thosttraderapi_se.dll）替换为相应柜台的版本即可，具体见[openctp](http://github.com/openctp/openctp)
+- openctp-ctp库默认只支持CTP柜台，如需连接TTS、XTP、TORA等柜台，可以使用openctp的CTPAPI兼容接口方式，将CTP的dll（如thosttraderapi_se.dll）替换为相应柜台的版本即可，具体见[openctp](http://github.com/openctp/openctp)
 
 - CTPAPI的Python版开发技术： [swig转换CTPAPI为Python攻略](https://www.jedore.top/blog/post/ctpapi-swig-python/)。
 
