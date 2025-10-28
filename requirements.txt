@@ -1,2 +1,0 @@
-cibuildwheel==2.12.1
-pytest == 7.3.0

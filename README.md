@@ -6,7 +6,7 @@
     <a href="#"><img src="https://img.shields.io/badge/os-linux_x86_64-white?style=flat-square&logo=linux&logoColor=white&color=rgb(35%2C189%2C204)" /></a>
     <a href="#"><img src="https://flat.badgen.net/badge/os/macos-x86_64/cyan?icon=apple" /></a>
     <a href="#"><img src="https://flat.badgen.net/badge/os/macos-arm64/cyan?icon=apple" /></a>
-    <a href="#"><img src="https://flat.badgen.net/badge/python/3.7~3.13/blue" /></a>
+    <a href="#"><img src="https://flat.badgen.net/badge/python/3.7~3.14/blue" /></a>
     <a href="https://pepy.tech/project/openctp-ctp" ><img src="https://static.pepy.tech/badge/openctp-ctp" /></a>
     <a href="#" ><img src="https://flat.badgen.net/badge/license/BSD-3/blue?" /></a>
     <a href="#" ><img src="https://flat.badgen.net/badge/test/pass/green?icon=github" /></a>
